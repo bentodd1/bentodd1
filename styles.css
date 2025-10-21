@@ -396,6 +396,69 @@ body {
     color: var(--white);
 }
 
+/* Writing Section */
+.writing-section {
+    background: var(--white);
+    border-top: 1px solid var(--gray-light);
+}
+
+.writing-intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.writing-intro p {
+    font-size: 18px;
+    color: var(--gray);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.writing-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.medium-card {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border-radius: 20px;
+    padding: 40px;
+    border: 1px solid var(--gray-light);
+    transition: all 0.3s;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.medium-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+    border-color: var(--primary);
+}
+
+.medium-header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.medium-header svg {
+    color: var(--dark);
+    flex-shrink: 0;
+}
+
+.medium-info h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 8px;
+}
+
+.medium-info p {
+    font-size: 16px;
+    color: var(--gray);
+}
+
 /* Analytics Section */
 .analytics-section {
     background: var(--white);
